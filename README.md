@@ -18,21 +18,21 @@ academic-paper-writing/
 方式一（推荐，使用 skills CLI）：
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/LDLZM/academic-paper-writing.git
 npx skills add ./academic-paper-writing --global --agent codex
 ```
 
 方式二（直接复制到 Codex 全局技能目录）：
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/LDLZM/academic-paper-writing.git
 cp -r academic-paper-writing ~/.agents/skills/
 ```
 
 Windows PowerShell：
 
 ```powershell
-git clone <this-repo-url>
+git clone https://github.com/LDLZM/academic-paper-writing.git
 Copy-Item -Recurse academic-paper-writing "$HOME\.agents\skills\"
 ```
 
